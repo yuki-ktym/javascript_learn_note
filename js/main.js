@@ -1,4 +1,8 @@
-// コメントアウト
+// コメントアウト1
+/*
+コメントアウト2
+コメントアウト2
+*/
 
 // ログの表出、現在時刻の取得、テキストの表出
 console.log("hellow", "it's", new Date(), "now")
@@ -12,5 +16,55 @@ console.log(402 % 5)
 console.log(2 ** 3)
 
 // 変数
-let myName = "kitayama"
+// さまざまな代入が可能※メソッド、function
+let myName = "let_kitayama"
 console.log(myName)
+let timeDate = new Date()
+let myFunction = () => {
+  const number = 20
+  return number
+}
+console.log(myFunction)
+
+// letは再代入可能
+myName = "let_yuki"
+console.log(myName)
+
+// 変数同士の演算（数値、文字列も可能）
+let letNumber20 = 20
+let letNumber30 = 30
+let letText = "合計"
+let letSum = letText + (letNumber20 + letNumber30)
+console.log(letSum)
+
+// 複数の変数をまとめて定義する※定義がなければundefined
+let a = 1, b = 2, c
+console.log(a + b)
+console.log(c)
+
+// 定数
+// 再代入はできない、演算可能
+// 定義されていなかった場合でもundefinedは返さないので必ず定義する
+const constName = "const_kitayama"
+console.log(constName)
+// 配列は再代入可能
+const constArray = [
+  "name",
+  "age",
+  "sex"
+]
+console.log(...constArray)
+constArray[0] = "middle_name"
+console.log(...constArray)
+
+// 比較演算子
+console.log("kitayama" == "kitayama")//true
+console.log("kitamura" == "kitayama")//false
+console.log("10" === "10")//true
+console.log("10" === 10)//false
+console.log("10" != "10")//false
+console.log(10 !== 10)//false
+console.log(10 < 30)//true
+console.log(10 > 30)//false
+console.log(10 <= 30)//true
+console.log(10 >= 30)//false
