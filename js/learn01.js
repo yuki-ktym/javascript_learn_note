@@ -26,7 +26,7 @@ let myFunction = () => {
 }
 console.log(myFunction)
 
-// letは再代入可能
+// letは再代入可能、再宣言できない
 myName = "let_yuki"
 console.log(myName)
 
@@ -68,3 +68,27 @@ console.log(10 < 30)//true
 console.log(10 > 30)//false
 console.log(10 <= 30)//true
 console.log(10 >= 30)//false
+const array1 = [1, 2, 3]
+const array2 = [1, 2, 3]
+const array3 = [1, 2, 3]
+const array4 = array3
+console.log(array3 == array4)//同じ配列なのでtrue
+console.log(array1 == array2)//中身が同じでも、違う配列なのでfalse
+
+// 複合代入演算子
+// 計算などを簡略化したい時
+/*
+x = y   //x = y
+x += y  //x = x + y
+x -= y  //x = x - y
+x *= y  //x = x * y
+x **= y //x = x ** y
+x /= y  //x = x / y
+x %= y  //x = x % y
+*/
+
+let compound_a = 10
+let compound_b = 5
+compound_a += compound_b
+console.log(compound_a)
+
