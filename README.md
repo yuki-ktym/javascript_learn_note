@@ -1,9 +1,11 @@
 # javascript_learn_note
 
-###JavaScript 学習用ノート
-###javascript learning repository
+### JavaScript 学習用ノート
 
-####learn01.js
+### javascript learning repository
+
+#### learn01.js
+
 コメント
 
 四則演算
