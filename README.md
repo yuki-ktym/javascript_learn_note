@@ -1,7 +1,7 @@
 # javascript_learn_note
 ### JavaScript学習用ノート
 
-#### learn01.js
+#### Note01.js
 - コメント
 - 四則演算
 - 変数
@@ -10,12 +10,12 @@
 - 複合代入演算子
 - 関数
 
-#### learn02.js
+#### Note02.js
 
-#### learn03.js
-#### learn04.js
-#### learn05.js
-#### learn06.js
-#### learn07.js
-#### learn08.js
+#### Note03.js
+#### Note04.js
+#### Note05.js
+#### Note06.js
+#### Note07.js
+#### Note08.js
 
