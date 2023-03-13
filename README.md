@@ -8,13 +8,19 @@
   - 定数
   - 比較演算子
   - 複合代入演算子
-  - 関数
 
 - Note02.js
+  - 関数
 
 - Note03.js
+  - 
+
 - Note04.js
+  - 
+
 - Note05.js
+  - 
+
 - Note06.js
 - Note07.js
 - Note08.js
