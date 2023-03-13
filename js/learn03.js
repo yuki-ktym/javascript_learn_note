@@ -30,10 +30,31 @@ console.log(floorRandomNumber)
 const myName = [
   "JAVAさん",
   'SCさん',
-  `RIPTさん`,
+  `RIPTさん　　　　`,
 ]
 console.log(...myName)
 // 文字列の長さ取得
 console.log(myName[0].length)
 console.log(myName[1].length)
-console.log(myName[2].length)
+console.log(myName[2])
+// 空白を除外
+console.log(myName[2].trim())
+
+// 例：テキストエリアから文字数カウント
+let textarea = document.querySelector('#textarea')
+let string_num = document.querySelector('#string_num')
+
+// 入力された時に発火するよう定義
+textarea.addEventListener('keyup', onKeyUp)
+function onKeyUp() {
+  const inputText = textarea.value
+  string_num.innerText = inputText.length
+}
+
+// 文字列検索
+const searchString = myName.indexOf("SCさん")
+console.log(searchString)
+
+// 文字列の指定した箇所を取り出す（0を含むので4番目となる）
+const charText = "javascript"
+console.log(charText.charAt(3))
