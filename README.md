@@ -13,13 +13,13 @@
   - 関数
 
 - Note03.js
-  - 
+  - 項目
 
 - Note04.js
-  - 
+  - 項目
 
 - Note05.js
-  - 
+  - 項目
 
 - Note06.js
 - Note07.js

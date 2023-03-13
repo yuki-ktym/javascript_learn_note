@@ -64,3 +64,18 @@ switch (food) {
 for (let index = 0; index < 10; index++) {
   console.log(index)
 }
+
+// 条件が満たされるまで繰り返し処理while
+let whileNumber = 0;
+while (whileNumber < 5) {
+  whileNumber += 1;
+  console.log(whileNumber)
+}
+// 反復処理のスキップ
+// スキップを条件ごと定義することによりネストを浅くできる
+for (let index = 0; index < 10; index++) {
+  if (index % 2 === 0) {
+    continue
+  }
+  console.log(index)
+}
