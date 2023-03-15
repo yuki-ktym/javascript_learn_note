@@ -1,7 +1,6 @@
 # javascript_learn_note
 ### JavaScript学習用ノート
-![alt](images/js-logo.webp)
-<img src="images/js-logo.webp" alt="attach:cat" title="attach:cat" width="200" height="200">
+<img src="images/js-logo.webp" alt="attach:cat" title="attach:cat" width="120" height="120">
 
 - Note01.js
   - コメント
