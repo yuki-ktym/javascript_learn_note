@@ -28,7 +28,9 @@ console.log(myNumericalValue.toFixed(15))
 // 指定の精度に変換
 console.log(myNumericalValue.toPrecision(3))
 console.log(myNumericalValue.toPrecision(15))
-
+//１０未満の数値の頭に0を付与したい、付与先の数値ば文字列へ変換しなくてはならない
+const padstartValue = "5"
+console.log(padstartValue.padStart(2, "0"))
 
 
 /*
