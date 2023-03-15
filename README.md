@@ -1,6 +1,6 @@
 # javascript_learn_note
 ### JavaScript学習用ノート
-![images/js-logo.webp]
+![alt]images/js-logo.webp
 
 - Note01.js
   - コメント
